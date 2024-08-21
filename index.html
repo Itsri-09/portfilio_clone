@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="src/Logo.png" type="image/png" />
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstarp -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS LINK -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- css loader link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+
+    <!-- slick slider css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <div id="loader" class="center"></div>
+      <!-- navbar start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container md-d-none">
+          <a class="navbar-brand" href="#">
+            <img src="src/Logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse md-text-white" id="navbarText">
+            <ul class="navbar-nav mb-2 ms-lg-auto me-lg-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testominal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item d-lg-none d-block">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <div class="navbar-text d-lg-block d-none button">
+              <button class="btn btn_contact">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+    </header>
+    <!-- header section end -->
+    <!-- banner section start -->
+    <section class="banner_section">
+      <div class="container-fluid">
+        <img class="banner_animation" src="src/particleOne.png" alt="" />
+        <div class="container">
+          <div class="row banner_set">
+            <div class="col-lg-6 col-xl-7 banner_left">
+              <p class="h6">
+                <img src="src/orangeDot.png" alt="" />
+                I AM DESIGNER
+              </p>
+              <p class="h1 title">
+                Creative Design and Web <span id="type"></span>
+              </p>
+              <p class="h5 paragraph">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+                Temporibus autem quibusdam et.
+              </p>
+              <button class="btn_contact_anime lg-mt-5">Download My Cv</button>
+              <img class="img_animation" src="src/particleTwo.png" alt="" />
+            </div>
+            <div class="col-lg-6 col-xl-5 banner_right">
+              <img src="src/homeNannerShape.png" alt="" class="background" />
+              <img src="src/bannerImg.png" class="image" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+
+    <!-- about section start -->
+    <div class="container-fluid about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 left_about">
+            <div class="over-lay">
+              <img class="about_img" src="src/about.png" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 pt-5 right_about">
+            <img src="src/orangeDot.png" alt="" /><span id="About_me">
+              About me</span
+            >
+            <p class="h1 pt-3">I Can Design Anything You Want</p>
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam et aut officiis. Nam libero tempore, cum soluta
+              nobis est eligendi optio cumque nihil impedit.
+            </p>
+            <div class="row img_number">
+              <div class="col-lg-6 image pt-5">
+                <img src="src/aboutIconOne.png" alt="" />
+                <div class="aboutOne d-block ps-3">
+                  <p class="h4">
+                    <span class="counter" data-val="10"> 0 </span>+
+                  </p>
+                  <p class="h5">Complete Project</p>
+                </div>
+              </div>
+              <div class="col-lg-6 image d-flex pt-5">
+                <img src="src/aboutIconTwo.png" alt="" />
+                <div class="aboutTwo d-block ps-3">
+                  <p class="h4">
+                    <span class="counter" data-val="6"> 0 </span>+
+                  </p>
+                  <p class="h5">Year of experience</p>
+                </div>
+              </div>
+            </div>
+            <!-- paragraph section start -->
+            <div
+              class="row check_box pt-5"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="col-lg-6 check_boxsection">
+                <p class="subtitle">
+                  <i class="fa-regular fa-square-check"></i> Work simple and
+                  cline design
+                </p>
+                <p class="subtitle">
+                  <i class="fa-regular fa-square-check"></i> New idea and user
+                  friendly design
+                </p>
+              </div>
+              <div class="col-lg-6 check_boxsection">
+                <p class="subtitle">
+                  <i class="fa-regular fa-square-check"></i> Web Design Full
+                  stack
+                </p>
+                <p class="subtitle">
+                  <i class="fa-regular fa-square-check"></i> Unlimited Revisions
+                </p>
+              </div>
+            </div>
+            <!-- paragraph section start -->
+
+            <!-- button -->
+            <button
+              class="btn btn_contact mt-5 md-mt-0"
+              data-aos="fade-up"
+              data-aos-delay="1000"
+            >
+              Download My Cv
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section start -->
+
+    <!-- services section  start-->
+    <div class="container-fluid services">
+      <div class="services_header pt-5">
+        <img class="service_img" src="src/orangeDot.png" alt="" />
+        <p class="para mb-0">My Services</p>
+      </div>
+      <div class="services_subtitle pt-4">
+        <p class="h1 subtitle">SERVICES I OFFER</p>
+      </div>
+    </div>
+    <div class="service_content container">
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6 pt-lg-3">
+          <div class="card">
+            <div class="text-center">
+              <img src="src/serviceOne.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">UI/UX Design</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-center">
+              <img src="src/serviceTwo.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">Mobile App</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-center">
+              <img src="src/serviceThree.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">Graphic Design</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-card">
+              <img src="src/serviceFour.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">Web Developer</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 2 start -->
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-center">
+              <img src="src/serviceFive.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">SEO Optimisation</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-center">
+              <img src="src/serviceSix.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">WordPress Developer</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-center">
+              <img src="src/serviceSeven.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">App Development</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-3">
+          <div class="card">
+            <div class="text-card">
+              <img src="src/serviceEight.png" class="img_serviceone" alt="" />
+              <p class="h4 pt-3">Business Strategy</p>
+              <p class="h5 pt-3">
+                Hen our power of choice is untrammelled and when nothing
+                prevents our being able
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <--section 2 end -->
+    </div>
+    <!-- services section  end-->
+
+    <!-- years section start -->
+    <section class="container-fluid experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="year_header text-center">
+              <img src="src/orangeDot.png" alt="" />
+              <p class="h6 mb-0 ms-2">My Resume</p>
+            </div>
+            <p class="h1 text-center mt-3 fw-bolder">10+ YEARS OF EXPERIENCE</p>
+          </div>
+        </div>
+        <div class="row education">
+          <div class="col-lg-3 education_skills">
+            <div class="col-lg-2 eduaction-item">
+              <p class="h5">Education</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-9 d-lg-flex bg-white h-50 rounded"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">BSc in Computer Science</p>
+              <p class="subtitle_1">University of ULAV (2018 - 2022)</p>
+              <p class="subtitle_2">
+                Pomnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">AS - Science & Information</p>
+              <p class="subtitle_1">University of ULAV (2016 - 2018)</p>
+              <p class="subtitle_2">
+                Pomnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">Secondary School Education</p>
+              <p class="subtitle_1">Kindergarten (2006 - 2016)</p>
+              <p class="subtitle_3 ">
+                Pomnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row education">
+          <div class="col-lg-3 education_skills">
+            <div class="col-lg-2 eduaction-item">
+              <p class="h5">Software Skills</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-9 d-lg-flex bg-white h-50 mt-5 rounded"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">UI/UX Design</p>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills">Figma</p>
+                <p class="subtitle_3 col-4">90%</p>
+              </div>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">Adobe XD</p>
+                <p class="subtitle_3 col-4">85%</p>
+              </div>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">Photoshop</p>
+                <p class="subtitle_3 col-4">80%</p>
+                <p class="subtitle_2"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">Web Developer</p>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">WordPress</p>
+                <p class="subtitle_3 col-4">90%</p>
+              </div>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">Mockplus</p>
+                <p class="subtitle_3 col-4">85%</p>
+              </div>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">Weebly</p>
+                <p class="subtitle_3 col-4">80%</p>
+                <p class="subtitle_2"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">App Development</p>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills">Quixy</p>
+                <p class="subtitle_3 col-4">90%</p>
+              </div>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">AppyPie</p>
+                <p class="subtitle_3 col-4">85%</p>
+              </div>
+              <div class="line_section row">
+                <p class="subtitle_1 col-8" id="line_skills_2">iBuildApp</p>
+                <p class="subtitle_3 col-4">80%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row education">
+          <div class="col-lg-3 education_skills">
+            <div class="col-lg-2 eduaction-item">
+              <p class="h5">Experience</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-9 d-lg-flex bg-white h-50 mt-5 rounded"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">Web Developer & Trainer</p>
+              <p class="subtitle_1">Brac Developer Team - (2012 - 2016)</p>
+              <p class="subtitle_2">
+                Pomnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">Front-end Developer</p>
+              <p class="subtitle_1">Brane - (2020 - 2011)</p>
+              <p class="subtitle_2">
+                Pomnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+            <div class="col-lg-4 p-4 line_edu">
+              <p class="h5 fw-bold Skills">UI/UX Designer</p>
+              <p class="subtitle_1">Google Out Tech - (2017 - Present)</p>
+              <p class="subtitle_3">
+                Pomnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- years section end -->
+
+    <!-- slick slider section start -->
+    <section class="container-fluid slick_slider_section">
+      <div class="container slick_slider">
+        <div class="row">
+          <div class="slick_header d-flex justify-content-center">
+            <img src="src/orangeDot.png" class="header_image" alt="" />
+            <p class="h6">Testominal</p>
+          </div>
+          <div class="row">
+            <p class="h1 text-center subtitle">CLIENT FEEDBACK</p>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5 Testominal">
+        <div class="row">
+          <div class="col">
+            <!-- slicker start carousel start -->
+            <div class="your-class px-2">
+              <div class="card slider">
+                <div class="d-flex">
+                  <div>
+                    <img src="src/testimonialOne.png" class="" alt="" />
+                  </div>
+                  <div class="text_content">
+                    <p class="h3">John K. Meraz</p>
+                    <p class="h5">CTO, Xyz Group</p>
+                  </div>
+                </div>
+                <p class="paragraph pt-3">
+                  “Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  fr45 BC, mak it over 2000 years old.
+                </p>
+              </div>
+              <div class="card slider">
+                <div class="d-flex">
+                  <div>
+                    <img src="src/testimonialTwo.png" class="" alt="" />
+                  </div>
+                  <div class="text_content">
+                    <p class="h3">Robert E. Wolf</p>
+                    <p class="h5">Director, Techso</p>
+                  </div>
+                </div>
+                <p class="paragraph pt-3">
+                  “Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  fr45 BC, mak it over 2000 years old.
+                </p>
+              </div>
+              <div class="card slider">
+                <div class="d-flex">
+                  <div>
+                    <img src="src/testimonialThree.png" class="" alt="" />
+                  </div>
+                  <div class="text_content">
+                    <p class="h3">Johan Smith</p>
+                    <p class="h5">CEO, Abc Agency</p>
+                  </div>
+                </div>
+                <p class="paragraph pt-3">
+                  “Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  fr45 BC, mak it over 2000 years old.
+                </p>
+              </div>
+              <div class="card slider">
+                <div class="d-flex">
+                  <div>
+                    <img src="src/testimonialOne.png" class="" alt="" />
+                  </div>
+                  <div class="text_content">
+                    <p class="h3">John K. Meraz</p>
+                    <p class="h5">CTO, Xyz Group</p>
+                  </div>
+                </div>
+                <p class="paragraph pt-3">
+                  “Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  fr45 BC, mak it over 2000 years old.
+                </p>
+              </div>
+              <div class="card slider">
+                <div class="d-flex">
+                  <div>
+                    <img src="src/testimonialTwo.png" class="" alt="" />
+                  </div>
+                  <div class="text_content">
+                    <p class="h3">Robert E. Wolf</p>
+                    <p class="h5">Director, Techso</p>
+                  </div>
+                </div>
+                <p class="paragraph pt-3">
+                  “Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  fr45 BC, mak it over 2000 years old.
+                </p>
+              </div>
+              <div class="card slider">
+                <div class="d-flex">
+                  <div>
+                    <img src="src/testimonialThree.png" class="" alt="" />
+                  </div>
+                  <div class="text_content">
+                    <p class="h3">Johan Smith</p>
+                    <p class="h5">CEO, Abc Agency</p>
+                  </div>
+                </div>
+                <p class="paragraph pt-3">
+                  “Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  fr45 BC, mak it over 2000 years old.
+                </p>
+              </div>
+            </div>
+            <!-- slicker start carousel end -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- slick slider section end -->
+
+    <!-- Portfolio section start -->
+
+    <section class="container-fluid Portfolio_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header">
+            <img src="src/orangeDot.png" class="header_image" alt="" />
+            <p class="h5 subtitle">My Portfolio</p>
+          </div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-12 subhead">
+            <p class="h3 title">VISIT MY PORTFOLIO</p>
+          </div>
+        </div>
+        <div class="filter-buttons text-center">
+          <button class="filter-button" data-filter="all">All</button>
+          <button class="filter-button" data-filter="ui/ux design">
+            UI/uxdesign
+          </button>
+          <button class="filter-button" data-filter="branding">
+            Branding design
+          </button>
+          <button class="filter-button" data-filter="graphic">
+            Graphic design
+          </button>
+          <button class="filter-button" data-filter="illustration">
+            App Development
+          </button>
+        </div>
+
+        <div class="container portfolio_gallery ">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 .portfolio-card-overlay">
+              <div class="gallery_image_1" data-name="ui">
+                <img class="image" src="src/portfolioOne.png" alt="" />
+                <div class="overlay">UI Design</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="gallery_image_1" data-name="graphic">
+                <img class="image" src="src/portfolioTwo.png" alt="" />
+                <div class="overlay">Graphic Design</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="gallery_image_1" data-name="ui">
+                <img class="image" src="src/portfolioThree.png" alt="" />
+                <div class="overlay">UI/UX</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="gallery_image_1" data-name="branding">
+                <img class="image" src="src/portfolioFour.png" alt="" />
+                <div class="overlay">Branding</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="gallery_image_1" data-name="illustration">
+                <img class="image" src="src/portfolioFive.png" alt="" />
+                <div class="overlay">Illustration</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="gallery_image_1" data-name="branding">
+                <img class="image" src="src/portfolioSix.png" alt="" />
+                <div class="overlay">Branding</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 gallery_image_1" data-name="fun">
+              <img class="image" src="src/portfolioSeven.png" alt="" />
+              <div class="overlay">Fun Project</div>
+            </div>
+            <div class="col-lg-8 col-md-12 gallery_image_1" data-name="full">
+              <img
+                style="height: 330px; width: 856px"
+                src="src/portfolioEight.png"
+                alt=""
+              />
+              <div class="overlay">Full View</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section end -->
+
+    <!-- partner section start -->
+    <section class="partner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="partner_header">
+              <div class="image">
+                <img src="src/orangeDot.png" class="orange_Dot" alt="" />
+                <p class="heading h5 mb-0">Partners</p>
+              </div>
+              <p class="subtitle mt-3">REPUTED PARTNER</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="parnter">
+              <div class="card">
+                <img class="partner_img" src="src/partnerOne.png" alt="" />
+              </div>
+              <div class="card">
+                <img class="partner_img1" src="src/partnerTwo.png" alt="" />
+              </div>
+              <div class="card">
+                <img class="partner_img1" src="src/partnerThree.png" alt="" />
+              </div>
+              <div class="card">
+                <img class="partner_img1" src="src/partnerFour.png" alt="" />
+              </div>
+              <div class="card">
+                <img class="partner_img" src="src/partnerFive.png" alt="" />
+              </div>
+              <div class="card">
+                <img class="partner_img" src="src/partnerOne.png" alt="" />
+              </div>
+              <div class="card">
+                <img class="partner_img1" src="src/partnerTwo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- partner section end -->
+
+<!-- blog section start -->
+    <section class="my_blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="Blog_header">
+              <div class="image">
+                <img src="src/orangeDot.png" class="orange_Dot" alt="" />
+                <p class="heading h2 mb-0">My Blog</p>
+              </div>
+              <p class="subtitle mt-3">LATEST BLOG</p>
+            </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="img_overlay" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="" src="src/blogOne.png" alt="">
+              </div>
+                <div class="content">
+              <p class="para text-muted">20 January, 2023</p>
+              <p class="h5 subhead" data-bs-toggle="modal" data-bs-target="#exampleModal">Become a UX/UI Designer With Career Foundry.</p>
+              <div class="subtitle">
+                <p class="text" data-bs-toggle="modal" data-bs-target="#exampleModal">read more</p>
+                <i class="fa-solid fa-arrow-right icon"></i>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-4 blog_image">
+            <div class="card">
+              <div class="img_overlay" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="src/blogTwo.png" alt="">
+              </div>
+              
+             <div class="content">
+              <p class="para text-muted">15 January, 2023</p>
+              <p class="h5 subhead fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal">The Best App Development For Your Business Plan.</p>
+              <div class="subtitle">
+                <p class="text" data-bs-toggle="modal" data-bs-target="#exampleModal">read more</p>
+                <i class="fa-solid fa-arrow-right icon"></i>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-4 blog_image">
+            <div class="card">
+             <div class="img_overlay" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="src/blogThree.png" alt="">
+             </div>
+             <div class="content">
+              <p class="para text-muted">08 January, 2023</p>
+              <p class="h5 subhead" data-bs-toggle="modal" data-bs-target="#exampleModal">The Best Portfolio For Agency Design Thinking</p>
+              <div class="subtitle">
+                <p class="text" data-bs-toggle="modal" data-bs-target="#exampleModal">read more</p>
+                <i class="fa-solid fa-arrow-right icon"></i>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="container">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="close mt-3" data-bs-dismiss="modal" aria-label="Close">
+          <span class="icon" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body border-bottom-0">
+      <figure class="">
+        <img src="src/singleBlogFeatured.png" alt="" width="100%">
+      </figure>  
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 header">
+              <p class="subtitle">
+                <i class="fa-regular fa-user"></i> Roy Gallery
+              </p>
+              <p class="subtitle_1">
+                <i class="fa-regular fa-calendar"></i> Roy Gallery
+              </p>
+            </div>
+          </div>
+         <div class="content">
+          <div class="row">
+            <div class="col-lg-12 subhead">
+                 <p class="heading">Become A UX/UI Designer With Career Foundry And New Creative Design New Idea Generate!</p>
+                 <p class="paragarph">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expo the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </article>
+      <article class="qoutes">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <img src="src/quotation.png" alt="">
+              <p class="headings pt-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati ditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+              <p class="author">- Roy Gallagher</p>
+            </div>
+          </div>
+        </div>
+      </article>  
+      <article class="image">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="src/blogEleven.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li class="list_items"><i class="fa-regular fa-square-check"></i> <p>Understanding the client's needs and goals.</p> </li>
+              <li class="list_items"><i class="fa-regular fa-square-check"></i> <p>Research and analysis.</p></li>
+              <li class="list_items"><i class="fa-regular fa-square-check"></i> <p> Concept development.</p></li>
+              <li class="list_items"><i class="fa-regular fa-square-check"></i> <p>Sketching and prototyping.</p></li>
+              <li class="list_items"><i class="fa-regular fa-square-check"></i> <p>Technical skills and software proficiency.</p></li>
+              <li class="list_items"><i class="fa-regular fa-square-check"></i> <p>Communication and collaboration.</p></li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="head">
+              But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="">
+              Is this content most useful?
+            </p>
+          </div>
+          <div class="col-lg-8 like_section">
+            <button>
+              <p>
+                <i class="fa-regular fa-thumbs-up"></i>
+                <span id="like">Like</span>
+              </p>
+            </button>
+            <button class="button_1">
+              <p>
+                <i class="fa-regular fa-thumbs-down"></i>
+                <span  id="like">DisLike</span>
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <section class="social">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-8">
+              <p>Tags: UI/UX Design, Mobile App, Graphics Design</p>
+            </div>
+            <div class="col-lg-4 social_media">
+              <i class="fa-solid fa-share-nodes fa-1x"></i><span id="share">Share</span>
+              <i class="fa-brands fa-facebook fa-1x"></i>
+              <i class="fa-brands fa-twitter fa-1x"></i>
+              <i class="fa-brands fa-dribbble fa-1x"></i>
+              <i class="fa-brands fa-behance fa-1x"></i>            
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comments">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="heading">Comments(4)</p>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-2 ">
+              <img src="src/download.png" alt="">
+            </div>
+            <div class="col-lg-10">
+              <p class="name">Elayne Warner</p>
+              <p class="date">12.09.2023 | 10:30 am</p>
+              <p class="descripiton">No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him</p>
+              <div class="col-lg-8 like_section">
+                <button>
+                  <p>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <span id="like">Like</span>
+                  </p>
+                </button>
+                <button class="button_1">
+                  <p>
+                    <i class="fa-regular fa-thumbs-down"></i>
+                    <span  id="like">DisLike</span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+     
+    </div>
+  </div>
+  </div>
+</div>
+<!-- blog section end -->
+
+<!-- contact section start -->
+ <section class="container-fluid contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="contact_header text-center">
+          <img src="src/orangeDot.png" alt="" />
+          <p class="h6 mb-0 ms-2">My Contact</p>
+        </div>
+        <p class="h1 text-center mt-3 fw-bolder">I WANT TO HEAR FROM YOU</p>
+      </div>
+      </div>
+      <div class="row header ">
+        <div class="col-lg-8 contact_form">
+        <div class="row">
+          <div class="col ">
+            <input type="text" class="form-control w-100" placeholder="Your name" name="name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Your Email Address" name="email">
+        </div>   
+        </div>
+        <div class="row pt-3">
+          <div class="col ">
+            <input type="text" class="form-control w-100 " placeholder="Your Phone" name="name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Subject" name="email">
+        </div> 
+        </div>
+        <div class="row pt-3">
+          <div class="col ">
+          <textarea name="" id="" class="form-control" placeholder="Message"></textarea>        
+        </div>
+        </div>
+        <button class="btn contact_btn mt-5">Send Me Message</button>
+        </div>
+        <div class="col-lg-4">
+          <ul class="contact_list">
+            <li class="icons1">
+              <p class="icon_colr">
+                <i class="fa-solid fa-location-dot fa-2x">
+                </i>
+              </p>
+              <div class="description">
+                <p class="h2">Address
+                </p>
+                <p class="paragraph">
+                 202 Dog Hill Lane Beloit, KS 67420
+                </p>
+              </div>
+            </li>
+            <li class="icons2">
+              <p class="icon_colr">
+                <i class="fa-solid fa-phone-volume fa-2x"></i></p>
+                <div class="description">
+                <p class="h2">Phone
+                </p>
+                <p class="paragraph">
+                  +01589634755
+                </p>
+              </div>
+            </li>
+            <li class="icons3">
+              <p class="icon_colr">
+                <i class="fa-solid fa-envelope fa-2x"></i></p>
+                <div class="description">
+                <p class="h2">Email
+                </p>
+                <p class="paragraph">
+                  credesign@gmail.com
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+ </section>
+<!-- contact section end -->
+
+
+<!-- footer section start -->
+ <footer >
+  <div class="container-fluid">
+  <div class="container">
+    <div class="row footer_header">
+      <div class="col-lg-3 colum1">
+        <img src="src/LogoWhite.png" alt="">
+        <p class="paragarph">At vero eos et accusamus et iusto odio dign ducimus qui blanditiis praesentium volup deleniti atque corrupti quos dolores et molestias excepturi sint occaecati</p>
+        <p class="h3">credesign@gmail.com</p>
+      </div>
+      <div class="col-lg-3 colum2">
+        <p class="h3">Explore Link</p>
+        <ul class="list">
+          <li class="listem">About</li>
+          <li class="listem">Resume</li>
+          <li class="listem">Portfolio</li>
+          <li class="listem">Blog</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 colum3">
+        <p class="h3">My Services</p>
+        <ul class="list">
+          <li class="listem">UI/UX Design</li>
+          <li class="listem">Mobile App</li>
+          <li class="listem">Graphics Design</li>
+          <li class="listem">Web Developer</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 colum4">
+        <p class="h3">Follow me</p>
+        <ul class="list">
+          <li class="listem"><i class="fa-brands fa-facebook-f fa-1x"></i></li>
+          <li class="listem"><i class="fa-brands fa-twitter fa-1x"></i></li>
+          <li class="listem"><i class="fa-brands fa-dribbble fa-1x"></i></li>
+          <li class="listem"><i class="fa-brands fa-behance fa-1x"></i></li>
+        </ul>
+        <div class="location">
+          <i class="fa-solid fa-location-dot fa-1x"></i>
+          <div class="description">
+            
+            <p class="paragraph">
+             202 Dog Hill Lane Beloit, KS 67420
+            </p>
+          </div>
+          
+        </div>
+        <div class="location">
+          <i class="fa-solid fa-phone-volume fa-1x"></i>         
+           <div class="description">
+            
+            <p class="paragraph">
+              1-800-915-6270            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row copyright">
+    <div class="col-lg-8" >
+      <p class="h6">All rights reserved © 2023 Credesign</p>
+    </div>
+    <div class="col-lg-4 last">
+      <p class="h6">Terms & Condition</p>
+      <p class="h6">Privacy policy</p>
+    </div>
+    </div>
+  </div>
+</div>
+ </footer>
+<!-- footer section end -->
+    <!-- main js -->
+
+    <script src="main.js"></script>
+
+    <!-- bootstarp script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- type script js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#type", {
+        strings: ["Solutions", "Designer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+    <!-- // AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- slick js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+      integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      //slick js init
+
+      $(document).ready(function () {
+        $(".your-class").slick({
+          dots: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 575,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+      });
+
+      $(document).ready(function () {
+        $(".parnter").slick({
+          dots: true,
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 757,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
