@@ -9,6 +9,7 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+
 :root {
   --orange-color: #ff6b00;
   --black:#000;
@@ -533,7 +534,7 @@ header {
   padding-left: 10px;
   margin-bottom: 0px;
 }
-.subhead .title {
+.Portfolio_section .subhead .title {
   font-size: 44px !important;
   font-weight: bold;
   text-align: center;
@@ -1339,13 +1340,13 @@ footer{
   /* services section  start */
   .services .services_subtitle .subtitle {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
   }
   /* services section  end */
 
   /* years section start */
   .experience .h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .education .education_skills {
     display: none;
@@ -1390,13 +1391,20 @@ footer{
   .slick_slider .subtitle {
     padding-top: 10px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
   }
   .Testominal .slider {
     width: 50%;
     height: 100vh;
   }
+  
   /* slick slider end  */
+  /* portfoilio section */
+  .Portfolio_section .subhead .title {
+    font-size: 20px !important;
+    font-weight: bold;
+    text-align: center;
+  }
   /* partner section start */
   .partner .partner_header .subtitle {
     text-align: center;
@@ -1413,6 +1421,13 @@ footer{
 }
 .footer .list{
 padding-left: 0%;
+}
+.my_blog .card {
+  margin-top: 40px;
+}
+.portfolio_gallery .gallery_image_1 {
+  position: relative;
+  margin-top: 20px;
 }
 }
 @media (max-width: 768px) {
@@ -1442,22 +1457,58 @@ padding-left: 0%;
     font-weight: 800;
     font-size: 25px;
   }
-  /* .partner .card .partner_img1 {
-            width: 18%;
-            margin-left: 50px;
-            margin-top: 10px;
-        } */
   .partner .card .partner_img1 {
     width: 18%;
-    margin-left: 200px;
+    margin-left: 140px;
     margin-top: 10px;
   }
-    .partner_img {
-      width: 20%;
-      margin-left: 35%;
-      margin-top: 18px;
-  }
+  .partner_img {
+    width: 20%;
+    margin-left: 43%;
+    margin-top: 18px;
+}
   /* partner section end */
+
+  /* blog section */
+  .my_blog .Blog_header .subtitle {
+    text-align: center !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+}
+.blog_content{
+  display: flex !important;
+}
+/* contact section */
+.contact .contact_form input {
+  width: 100%;
+  margin-top: 10px;
+  /* padding: 25px; */
+  border: 1px solid #fdd5c1;
+}
+.details{
+  padding-top: 30px;
+}
+.details .contact_list {
+  padding-left: 0px !important;
+}
+.description .h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.icons2 .description .h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.icons3 .description .h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.contact{
+  padding-bottom: 0px;
+}
+.my_blog .card {
+  margin-top: 40px;
+}
 }
 @media (max-width: 575px) {
   /* education section start */
@@ -1473,23 +1524,91 @@ padding-left: 0%;
   }
   #line_skills_2::after {
     content: "";
-    width: 70%;
+    width: 60%;
     height: 2px;
     position: absolute;
     background-color: #e6e7ec;
     top: 11px;
     left: 80px;
-  }
+}
+ .slider .paragraph{
+  font-size: 14px !important;
+}
   /* education section end */
 
   .parnter .card {
    width: 100%;
   }
 
+/* data filter section */
+.portfolio_gallery .gallery_image_1 .image {
+  width: auto;
+  height: auto;}
+
+  .Portfolio_section {
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+
 
   /* blog section start */
-
-  
+/* blog section */
+.my_blog .Blog_header .subtitle {
+  text-align: center !important;
+  font-weight: 800 !important;
+  font-size: 24px !important;
+}
+.content .subhead .heading {
+  font-size: 20px;
+  font-weight: bolder;
+}
   /* blog section end */
-
+  .my_blog .card .content .subhead {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.my_blog .card {
+  margin-top: 40px;
+}
+.modal-content .modal-body .image p {
+  padding-left: 20px;
+  font-size: 16px;
+}
+/* /contacgt header */
+.footer_header{
+  padding-top: 50px;
+}
+.footer_header .colum2 .h3 {
+  padding-left: 0px;
+  font-size: 24px;
+}
+.footer_header .colum2 .list {
+  padding-top: 10px;
+  padding-left: 0px;
+}
+.footer_header .colum3 .h3 {
+  padding-left: 0px;
+  font-size: 20px;
+}
+.footer_header .colum3 .list {
+  padding-top: 10px;
+  padding-left: 0px;
+}
+.footer_header .colum4 .list {
+  padding-top: 10px;
+  padding-left: 0px;
+}
+.footer_header .colum4 .h3 {
+  padding-left: 0px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.footer_header .colum4 .location {
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
 }
