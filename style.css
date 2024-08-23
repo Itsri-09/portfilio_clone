@@ -400,7 +400,7 @@ header {
 .education .subtitle_3 {
   color: #555;
   font-size: 16px;
-  text-align: right;
+
 }
 .line_edu {
   position: relative;
@@ -409,7 +409,7 @@ header {
   content: "";
   position: absolute;
   top: 18px !important;
-  left: 288px;
+  left: 300px;
   width: 1px;
   height: 80%;
   background-color: #e6e7ec;
