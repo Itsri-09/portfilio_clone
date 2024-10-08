@@ -1474,6 +1474,7 @@ padding-left: 0%;
 }
   /* partner section end */
 
+  
   /* blog section */
   .my_blog .Blog_header .subtitle {
     text-align: center !important;
@@ -1543,6 +1544,10 @@ padding-left: 0%;
 
   .parnter .card {
    width: 100%;
+  }
+  .Testominal .slider {
+    width: 50%;
+    height: 300px;
   }
 
 /* data filter section */
@@ -1616,4 +1621,10 @@ padding-left: 0%;
   display: flex;
   justify-content: flex-start;
 }
+}
+@media (max-width:320px) {
+  .Testominal .slider {
+    width: 50%;
+    height: 360px !important;
+  }
 }
