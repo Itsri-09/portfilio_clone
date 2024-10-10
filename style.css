@@ -1400,7 +1400,7 @@ footer{
   }
   .Testominal .slider {
     width: 50%;
-    height: 100vh;
+    height: auto;
   }
   
   /* slick slider end  */
@@ -1547,7 +1547,7 @@ padding-left: 0%;
   }
   .Testominal .slider {
     width: 50%;
-    height: 300px;
+    height: auto;
   }
 
 /* data filter section */
@@ -1625,6 +1625,6 @@ padding-left: 0%;
 @media (max-width:320px) {
   .Testominal .slider {
     width: 50%;
-    height: 360px !important;
+    height: auto !important;
   }
 }
